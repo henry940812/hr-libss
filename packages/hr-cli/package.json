@@ -1,0 +1,22 @@
+{
+  "name": "@hr-libs/hr-cli",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "henry940812 <henry940812@gmail.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/hr-cli.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "node ./__tests__/@hr-libs/hr-cli.test.js"
+  }
+}

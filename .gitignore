@@ -1,0 +1,12 @@
+node_modules/
+
+.env
+
+/.history
+
+._*
+
+.git/
+.github/
+
+.npmrc
