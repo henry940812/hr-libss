@@ -4,6 +4,10 @@
   "packages": [
     "packages/*"
   ],
+  "ignoreChanges": [
+    "**/node_modules/**",
+    "**/__snapshots__/**"
+  ],
   "command": {
     "publish": {
       "conventionalCommits": true
