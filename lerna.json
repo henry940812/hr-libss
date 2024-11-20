@@ -10,7 +10,10 @@
   ],
   "command": {
     "publish": {
-      "conventionalCommits": true
+      "conventionalCommits": true,
+      "registry": "https://registry.npmjs.org/",
+      "logLevel": "verbose",
+      "logFile": "./logs/lerna-debug.log"
     }
   }
 }
