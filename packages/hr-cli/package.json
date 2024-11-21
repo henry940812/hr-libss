@@ -1,25 +1,26 @@
 {
-  "name": "@hr-libs/hr-cli",
-  "version": "1.0.2",
-  "description": "> TODO: description",
-  "author": "henry940812 <henry940812@gmail.com>",
-  "homepage": "",
-  "license": "ISC",
-  "main": "lib/hr-cli.js",
-  "directories": {
-    "lib": "lib",
-    "test": "__tests__"
+  "name": "@hr-libss/yd-cli",
+  "version": "1.2.1",
+  "description": "公司内部的Quicktype CLI工具，用于生成类型定义",
+  "bin": {
+    "hr-gen": "./lib/hr-cli.js"
   },
-  "files": [
-    "lib"
+  "keywords": [
+    "quicktype",
+    "cli",
+    "typescript",
+    "types"
   ],
-  "publishConfig": {
-    "access": "public"
-  },
-  "scripts": {
-    "test": "node ./__tests__/@hr-libs/hr-cli.test.js"
-  },
+  "author": "495725428@qq.com",
+  "license": "ISC",
   "dependencies": {
-    "@hr-libs/hr-ui": "workspace:^"
+    "@darkobits/lolcatjs": "^3.1.3",
+    "chalk": "^4.1.0",
+    "commander": "^11.0.0",
+    "figlet": "^1.8.0",
+    "inquirer": "^8.2.6",
+    "ora": "^4.0.4",
+    "quicktype-core": "^23.0.78",
+    "shelljs": "^0.8.5"
   }
 }
