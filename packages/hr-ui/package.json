@@ -1,29 +1,23 @@
 {
-  "name": "@hr-libs/hr-ui",
-  "version": "1.0.4",
-  "description": "> TODO: description",
-  "author": "henry940812 <henry940812@gmail.com>",
-  "homepage": "",
-  "license": "ISC",
-  "main": "lib/hr-ui.js",
-  "directories": {
-    "lib": "lib",
-    "test": "__tests__"
-  },
+  "name": "@hr-libss/hr-ui",
+  "version": "1.0.5",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
   "files": [
-    "lib"
+    "dist"
   ],
-  "publishConfig": {
-    "access": "public"
-  },
   "scripts": {
-    "test": "node ./__tests__/@hr-libs/hr-ui.test.js"
+    "build": "rollup -c",
+    "prepublishOnly": "pnpm build"
   },
   "devDependencies": {
+    "@rollup/plugin-node-resolve": "^15.3.0",
+    "@rollup/plugin-typescript": "^12.1.1",
     "@types/react": "^18.3.12",
-    "@types/react-dom": "^18.3.1",
-    "postcss": "^8.4.49",
-    "rollup-plugin-postcss": "^4.0.2"
-  },
-  "gitHead": "f62d770274e607f121a2893b619c1a260e4b6746"
+    "react": "^18.2.0",
+    "rollup": "^4.27.2",
+    "rollup-plugin-postcss": "^4.0.2",
+    "rollup-plugin-terser": "^7.0.2"
+  }
 }
