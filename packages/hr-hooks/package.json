@@ -19,5 +19,5 @@
   "scripts": {
     "test": "node ./__tests__/@hr-libs/hr-hooks.test.js"
   },
-  "gitHead": "a1bd65f91678c36a402dc77891750780e3c2e86a"
+  "gitHead": "116924e35215ef9d3bffa13d6a5d52235439392c"
 }

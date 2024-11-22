@@ -1,0 +1,215 @@
+0 silly argv {
+0 silly argv   _: [ 'publish' ],
+0 silly argv   composed: 'publish',
+0 silly argv   lernaVersion: '8.1.9',
+0 silly argv   '$0': 'node_modules/lerna/dist/cli.js'
+0 silly argv }
+1 notice cli v8.1.9
+2 verbose packageConfigs Explicit "packages" configuration found in lerna.json. Resolving packages using the configured glob(s): ["packages/*","apps/*"]
+3 verbose rootPath /Volumes/bigHD/web3/project/hr-libss
+4 info versioning independent
+5 verbose session fc20bfb6736c7e82
+6 verbose user-agent lerna/8.1.9/node@v20.18.0+arm64 (darwin)
+7 silly argv { _: [ 'publish' ], composed: 'publish', lernaVersion: '8.1.9' }
+8 verbose packageConfigs Explicit "packages" configuration found in lerna.json. Resolving packages using the configured glob(s): ["packages/*","apps/*"]
+9 verbose rootPath /Volumes/bigHD/web3/project/hr-libss
+10 silly isAnythingCommitted
+11 verbose isAnythingCommitted 1
+12 silly getCurrentBranch
+13 verbose currentBranch main
+14 silly hasTags
+15 verbose hasTags true
+16 silly git-describe.sync "@hr-libs/hr-hooks@1.0.5-0-gf9f68f8-dirty" => {"lastTagName":"@hr-libs/hr-hooks@1.0.5","lastVersion":"1.0.5","refCount":"0","sha":"f9f68f8","isDirty":true}
+17 warn force-publish all packages
+18 info Assuming all packages changed
+19 verbose updated @hr-libss/storybook
+20 verbose updated @hr-libss/yd-cli
+21 verbose updated @hr-libs/hr-hooks
+22 verbose updated @hr-libss/hr-ui
+23 silly independent for @hr-libss/yd-cli at /Volumes/bigHD/web3/project/hr-libss/packages/hr-cli
+24 verbose getChangelogConfig using preset "conventional-changelog-angular"
+25 silly npa Result {
+25 silly npa   type: 'range',
+25 silly npa   registry: true,
+25 silly npa   where: undefined,
+25 silly npa   raw: 'conventional-changelog-angular',
+25 silly npa   name: 'conventional-changelog-angular',
+25 silly npa   escapedName: 'conventional-changelog-angular',
+25 silly npa   scope: undefined,
+25 silly npa   rawSpec: '*',
+25 silly npa   saveSpec: null,
+25 silly npa   fetchSpec: '*',
+25 silly npa   gitRange: undefined,
+25 silly npa   gitCommittish: undefined,
+25 silly npa   gitSubdir: undefined,
+25 silly npa   hosted: undefined
+25 silly npa }
+26 verbose getChangelogConfig Attempting to resolve preset "conventional-changelog-angular"
+27 info getChangelogConfig Successfully resolved preset "conventional-changelog-angular"
+28 verbose independent increment 1.2.2 by patch
+29 silly independent for @hr-libs/hr-hooks at /Volumes/bigHD/web3/project/hr-libss/packages/hr-hooks
+30 verbose independent increment 1.0.5 by patch
+31 silly independent for @hr-libss/hr-ui at /Volumes/bigHD/web3/project/hr-libss/packages/hr-ui
+32 verbose independent increment 1.0.5 by patch
+33 info auto-confirmed
+34 info execute Skipping git push
+35 info execute Skipping releases
+36 silly lifecycle No script for "preversion" in "hr-libss", continuing
+37 silly lifecycle No script for "preversion" in "@hr-libss/yd-cli", continuing
+38 silly lifecycle No script for "preversion" in "@hr-libs/hr-hooks", continuing
+39 silly lifecycle No script for "preversion" in "@hr-libss/hr-ui", continuing
+40 verbose version @hr-libss/hr-ui has no lockfile. Skipping lockfile update.
+41 verbose version @hr-libss/yd-cli has no lockfile. Skipping lockfile update.
+42 verbose version @hr-libs/hr-hooks has no lockfile. Skipping lockfile update.
+43 silly lifecycle No script for "version" in "@hr-libss/hr-ui", continuing
+44 silly independent for @hr-libss/hr-ui at /Volumes/bigHD/web3/project/hr-libss/packages/hr-ui
+45 silly lifecycle No script for "version" in "@hr-libs/hr-hooks", continuing
+46 silly independent for @hr-libs/hr-hooks at /Volumes/bigHD/web3/project/hr-libss/packages/hr-hooks
+47 silly lifecycle No script for "version" in "@hr-libss/yd-cli", continuing
+48 silly independent for @hr-libss/yd-cli at /Volumes/bigHD/web3/project/hr-libss/packages/hr-cli
+49 silly independent writing new entry: "## [1.2.3](https://github.com/henry940812/hr-libss/compare/@hr-libss/yd-cli@1.2.2...@hr-libss/yd-cli@1.2.3) (2024-11-22)\n\n**Note:** Version bump only for package @hr-libss/yd-cli\n\n\n\n"
+50 silly independent writing new entry: "## [1.0.6](https://github.com/henry940812/hr-libss/compare/@hr-libs/hr-hooks@1.0.5...@hr-libs/hr-hooks@1.0.6) (2024-11-22)\n\n**Note:** Version bump only for package @hr-libs/hr-hooks\n\n\n\n"
+51 silly independent writing new entry: "## [1.0.6](https://github.com/henry940812/hr-libss/compare/@hr-libss/hr-ui@1.0.5...@hr-libss/hr-ui@1.0.6) (2024-11-22)\n\n**Note:** Version bump only for package @hr-libss/hr-ui\n\n\n\n"
+52 verbose independent wrote /Volumes/bigHD/web3/project/hr-libss/packages/hr-cli/CHANGELOG.md
+53 verbose independent wrote /Volumes/bigHD/web3/project/hr-libss/packages/hr-ui/CHANGELOG.md
+54 verbose independent wrote /Volumes/bigHD/web3/project/hr-libss/packages/hr-hooks/CHANGELOG.md
+55 silly lifecycle No script for "version" in "hr-libss", continuing
+56 verbose version Updating root pnpm-lock.yaml
+57 silly gitAdd [
+57 silly gitAdd   'packages/hr-ui/package.json',
+57 silly gitAdd   'packages/hr-hooks/package.json',
+57 silly gitAdd   'packages/hr-cli/package.json',
+57 silly gitAdd   'packages/hr-cli/CHANGELOG.md',
+57 silly gitAdd   'packages/hr-ui/CHANGELOG.md',
+57 silly gitAdd   'packages/hr-hooks/CHANGELOG.md',
+57 silly gitAdd   'pnpm-lock.yaml'
+57 silly gitAdd ]
+58 silly gitCommit chore(release): publish
+58 silly gitCommit
+58 silly gitCommit  - @hr-libss/yd-cli@1.2.3
+58 silly gitCommit  - @hr-libs/hr-hooks@1.0.6
+58 silly gitCommit  - @hr-libss/hr-ui@1.0.6
+59 verbose git [
+59 verbose git   'commit',
+59 verbose git   '-F',
+59 verbose git   '/private/var/folders/8d/zn4526593bb8xxzz7frhwz3w0000gn/T/1b7538d6-31bb-40de-be2f-cde75595c325/lerna-commit.txt'
+59 verbose git ]
+60 silly gitTag @hr-libss/yd-cli@1.2.3 git tag %s -m %s
+61 verbose git [ 'tag', '@hr-libss/yd-cli@1.2.3', '-m', '@hr-libss/yd-cli@1.2.3' ]
+62 silly gitTag @hr-libs/hr-hooks@1.0.6 git tag %s -m %s
+63 verbose git [ 'tag', '@hr-libs/hr-hooks@1.0.6', '-m', '@hr-libs/hr-hooks@1.0.6' ]
+64 silly gitTag @hr-libss/hr-ui@1.0.6 git tag %s -m %s
+65 verbose git [ 'tag', '@hr-libss/hr-ui@1.0.6', '-m', '@hr-libss/hr-ui@1.0.6' ]
+66 silly lifecycle No script for "postversion" in "@hr-libss/yd-cli", continuing
+67 silly lifecycle No script for "postversion" in "@hr-libs/hr-hooks", continuing
+68 silly lifecycle No script for "postversion" in "@hr-libss/hr-ui", continuing
+69 silly lifecycle No script for "postversion" in "hr-libss", continuing
+70 info publish Publishing packages to npm...
+71 warn ENOLICENSE Packages @hr-libss/yd-cli, @hr-libs/hr-hooks, and @hr-libss/hr-ui are missing a license.
+71 warn ENOLICENSE One way to fix this is to add a LICENSE.md file to the root of this repository.
+71 warn ENOLICENSE See https://choosealicense.com for additional guidance.
+72 silly getCurrentSHA
+73 verbose getCurrentSHA a1bd65f91678c36a402dc77891750780e3c2e86a
+74 warn lifecycle Skipping root "prepublish" because it has already been called
+75 silly lifecycle No script for "prepare" in "hr-libss", continuing
+76 silly lifecycle No script for "prepublishOnly" in "hr-libss", continuing
+77 silly lifecycle No script for "prepack" in "hr-libss", continuing
+78 verbose pack-directory packages/hr-cli
+79 silly lifecycle No script for "prepublish" in "@hr-libss/yd-cli", continuing
+80 verbose pack-directory packages/hr-hooks
+81 silly lifecycle No script for "prepublish" in "@hr-libs/hr-hooks", continuing
+82 verbose pack-directory packages/hr-ui
+83 silly lifecycle No script for "prepublish" in "@hr-libss/hr-ui", continuing
+84 silly lifecycle No script for "prepare" in "@hr-libss/yd-cli", continuing
+85 silly lifecycle No script for "prepare" in "@hr-libs/hr-hooks", continuing
+86 silly lifecycle No script for "prepare" in "@hr-libss/hr-ui", continuing
+87 silly lifecycle No script for "prepublishOnly" in "@hr-libss/yd-cli", continuing
+88 silly lifecycle No script for "prepublishOnly" in "@hr-libs/hr-hooks", continuing
+89 silly lifecycle "prepublishOnly" starting in "@hr-libss/hr-ui"
+90 info lifecycle @hr-libss/hr-ui@1.0.6~prepublishOnly: @hr-libss/hr-ui@1.0.6
+91 silly lifecycle No script for "prepack" in "@hr-libss/yd-cli", continuing
+92 silly lifecycle No script for "prepack" in "@hr-libs/hr-hooks", continuing
+93 silly lifecycle No script for "postpack" in "@hr-libs/hr-hooks", continuing
+94 verbose packed packages/hr-hooks
+95 silly lifecycle No script for "postpack" in "@hr-libss/yd-cli", continuing
+96 verbose packed packages/hr-cli
+97 silly lifecycle "prepublishOnly" finished in "@hr-libss/hr-ui"
+98 silly lifecycle No script for "prepack" in "@hr-libss/hr-ui", continuing
+99 silly lifecycle No script for "postpack" in "@hr-libss/hr-ui", continuing
+100 verbose packed packages/hr-ui
+101 silly lifecycle No script for "postpack" in "hr-libss", continuing
+102 verbose publish @hr-libss/yd-cli
+103 verbose publish @hr-libs/hr-hooks
+104 verbose publish @hr-libss/hr-ui
+105 silly FetchError: request to https://registry.npmjs.org/@hr-libss%2fhr-ui failed, reason: read ETIMEDOUT
+105 silly     at ClientRequest.<anonymous> (/Volumes/bigHD/web3/project/hr-libss/node_modules/.pnpm/minipass-fetch@3.0.5/node_modules/minipass-fetch/lib/index.js:130:14)
+105 silly     at ClientRequest.emit (node:events:519:28)
+105 silly     at emitErrorEvent (node:_http_client:101:11)
+105 silly     at _destroy (node:_http_client:884:9)
+105 silly     at onSocketNT (node:_http_client:904:5)
+105 silly     at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+105 silly  FetchError: request to https://registry.npmjs.org/@hr-libss%2fhr-ui failed, reason: read ETIMEDOUT
+105 silly     at ClientRequest.<anonymous> (/Volumes/bigHD/web3/project/hr-libss/node_modules/.pnpm/minipass-fetch@3.0.5/node_modules/minipass-fetch/lib/index.js:130:14)
+105 silly     at ClientRequest.emit (node:events:519:28)
+105 silly     at emitErrorEvent (node:_http_client:101:11)
+105 silly     at _destroy (node:_http_client:884:9)
+105 silly     at onSocketNT (node:_http_client:904:5)
+105 silly     at process.processTicksAndRejections (node:internal/process/task_queues:83:21) {
+105 silly   code: 'ETIMEDOUT',
+105 silly   errno: 'ETIMEDOUT',
+105 silly   syscall: 'read',
+105 silly   type: 'system'
+105 silly }
+106 warn notice Package failed to publish: @hr-libss/hr-ui
+107 error ETIMEDOUT request to https://registry.npmjs.org/@hr-libss%2fhr-ui failed, reason: read ETIMEDOUT
+108 error errno "ETIMEDOUT" is not a valid exit code - exiting with code 1
+109 silly FetchError: request to https://registry.npmjs.org/@hr-libs%2fhr-hooks failed, reason: read ECONNRESET
+109 silly     at ClientRequest.<anonymous> (/Volumes/bigHD/web3/project/hr-libss/node_modules/.pnpm/minipass-fetch@3.0.5/node_modules/minipass-fetch/lib/index.js:130:14)
+109 silly     at ClientRequest.emit (node:events:519:28)
+109 silly     at emitErrorEvent (node:_http_client:101:11)
+109 silly     at _destroy (node:_http_client:884:9)
+109 silly     at onSocketNT (node:_http_client:904:5)
+109 silly     at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+109 silly  FetchError: request to https://registry.npmjs.org/@hr-libs%2fhr-hooks failed, reason: read ECONNRESET
+109 silly     at ClientRequest.<anonymous> (/Volumes/bigHD/web3/project/hr-libss/node_modules/.pnpm/minipass-fetch@3.0.5/node_modules/minipass-fetch/lib/index.js:130:14)
+109 silly     at ClientRequest.emit (node:events:519:28)
+109 silly     at emitErrorEvent (node:_http_client:101:11)
+109 silly     at _destroy (node:_http_client:884:9)
+109 silly     at onSocketNT (node:_http_client:904:5)
+109 silly     at process.processTicksAndRejections (node:internal/process/task_queues:83:21) {
+109 silly   code: 'ECONNRESET',
+109 silly   errno: 'ECONNRESET',
+109 silly   syscall: 'read',
+109 silly   type: 'system'
+109 silly }
+110 warn notice Package failed to publish: @hr-libs/hr-hooks
+111 error ECONNRESET request to https://registry.npmjs.org/@hr-libs%2fhr-hooks failed, reason: read ECONNRESET
+112 error errno "ECONNRESET" is not a valid exit code - exiting with code 1
+113 silly FetchError: request to https://registry.npmjs.org/@hr-libss%2fyd-cli failed, reason: read ECONNRESET
+113 silly     at ClientRequest.<anonymous> (/Volumes/bigHD/web3/project/hr-libss/node_modules/.pnpm/minipass-fetch@3.0.5/node_modules/minipass-fetch/lib/index.js:130:14)
+113 silly     at ClientRequest.emit (node:events:519:28)
+113 silly     at emitErrorEvent (node:_http_client:101:11)
+113 silly     at _destroy (node:_http_client:884:9)
+113 silly     at onSocketNT (node:_http_client:904:5)
+113 silly     at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+113 silly  FetchError: request to https://registry.npmjs.org/@hr-libss%2fyd-cli failed, reason: read ECONNRESET
+113 silly     at ClientRequest.<anonymous> (/Volumes/bigHD/web3/project/hr-libss/node_modules/.pnpm/minipass-fetch@3.0.5/node_modules/minipass-fetch/lib/index.js:130:14)
+113 silly     at ClientRequest.emit (node:events:519:28)
+113 silly     at emitErrorEvent (node:_http_client:101:11)
+113 silly     at _destroy (node:_http_client:884:9)
+113 silly     at onSocketNT (node:_http_client:904:5)
+113 silly     at process.processTicksAndRejections (node:internal/process/task_queues:83:21) {
+113 silly   code: 'ECONNRESET',
+113 silly   errno: 'ECONNRESET',
+113 silly   syscall: 'read',
+113 silly   type: 'system'
+113 silly }
+114 warn notice Package failed to publish: @hr-libss/yd-cli
+115 error ECONNRESET request to https://registry.npmjs.org/@hr-libss%2fyd-cli failed, reason: read ECONNRESET
+116 error errno "ECONNRESET" is not a valid exit code - exiting with code 1
+117 error FetchError: request to https://registry.npmjs.org/@hr-libss%2fhr-ui failed, reason: read ETIMEDOUT
+117 error     at ClientRequest.<anonymous> (/Volumes/bigHD/web3/project/hr-libss/node_modules/.pnpm/minipass-fetch@3.0.5/node_modules/minipass-fetch/lib/index.js:130:14)
+117 error     at ClientRequest.emit (node:events:519:28)
+117 error     at emitErrorEvent (node:_http_client:101:11)
+117 error     at _destroy (node:_http_client:884:9)
+117 error     at onSocketNT (node:_http_client:904:5)

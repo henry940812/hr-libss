@@ -13,6 +13,10 @@
   "workspaces": [
     "packages/*"
   ],
+  "publishConfig": {
+    "registry": "http://localhost:4873",
+    "access": "public"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",

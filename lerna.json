@@ -1,8 +1,10 @@
 {
+  "$schema": "node_modules/lerna/schemas/lerna-schema.json",
   "version": "independent",
   "npmClient": "pnpm",
   "packages": [
-    "packages/*"
+    "packages/*",
+    "apps/*"
   ],
   "ignoreChanges": [
     "**/node_modules/**",
@@ -11,9 +13,22 @@
   "command": {
     "publish": {
       "conventionalCommits": true,
+      "allowBranch": [
+        "main",
+        "master"
+      ],
+      "yes": true,
       "registry": "https://registry.npmjs.org/",
       "logLevel": "verbose",
-      "logFile": "./logs/lerna-debug.log"
+      "logFile": "logs/lerna-debug.log",
+      "ignoreChanges": [
+        "**/*.md"
+      ],
+      "gitReset": false,
+      "push": false,
+      "private": false,
+      "forcePublish": true,
+      "message": "chore(release): publish"
     }
   }
 }
