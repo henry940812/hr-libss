@@ -1,6 +1,6 @@
 {
   "name": "@hr-libs/hr-hooks",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "> TODO: description",
   "author": "henry940812 <henry940812@gmail.com>",
   "homepage": "",
@@ -19,5 +19,5 @@
   "scripts": {
     "test": "node ./__tests__/@hr-libs/hr-hooks.test.js"
   },
-  "gitHead": "5bd37328011cc66ce35069cd2d7635d2217082cf"
+  "gitHead": "f9f68f880e14a7caaa466c8b4097da230236a394"
 }
