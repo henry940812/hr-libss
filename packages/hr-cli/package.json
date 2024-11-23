@@ -1,6 +1,6 @@
 {
   "name": "@hr-libss/yd-cli",
-  "version": "1.2.6",
+  "version": "1.2.7",
   "description": "公司内部的Quicktype CLI工具，用于生成类型定义",
   "bin": {
     "hr-gen": "./lib/hr-cli.js"
@@ -26,5 +26,5 @@
     "quicktype-core": "^23.0.78",
     "shelljs": "^0.8.5"
   },
-  "gitHead": "8d95d0d0a7143f78c327284fb6dbd3094d2b9ec7"
+  "gitHead": "b22c5d8f917a258ab36e23cc390c23bdcd277d8c"
 }

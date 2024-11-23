@@ -8,6 +8,9 @@ importers:
 
   .:
     devDependencies:
+      '@hr-libss/hr-ui':
+        specifier: ^1.0.9
+        version: 1.0.9
       '@rollup/plugin-commonjs':
         specifier: ^28.0.1
         version: 28.0.1(rollup@4.27.2)
@@ -544,6 +547,9 @@ packages:
 
   '@glideapps/ts-necessities@2.2.3':
     resolution: {integrity: sha512-gXi0awOZLHk3TbW55GZLCPP6O+y/b5X1pBXKBVckFONSwF1z1E5ND2BGJsghQFah+pW7pkkyFb2VhUQI2qhL5w==}
+
+  '@hr-libss/hr-ui@1.0.9':
+    resolution: {integrity: sha512-lL1Y6TewI9zS4Ywl4PtX9WuyigFt0VrEIahp8THjGvWuaJhUA1I6gt21S8zTg5mDN3cD1Hk54wFoAhh/kIMQbQ==}
 
   '@hutson/parse-repository-url@3.0.2':
     resolution: {integrity: sha512-H9XAx3hc0BQHY6l+IFSWHDySypcXsvsuLhgYLUGywmJ5pswRVQJUHpOsobnLYp2ZUaUlKiKDrgWWhosOwAEM8Q==}
@@ -4631,6 +4637,8 @@ snapshots:
     optional: true
 
   '@glideapps/ts-necessities@2.2.3': {}
+
+  '@hr-libss/hr-ui@1.0.9': {}
 
   '@hutson/parse-repository-url@3.0.2': {}
 
