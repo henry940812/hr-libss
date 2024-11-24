@@ -23,5 +23,5 @@
     "rollup-plugin-postcss": "^4.0.2",
     "rollup-plugin-terser": "^7.0.2"
   },
-  "gitHead": "b22c5d8f917a258ab36e23cc390c23bdcd277d8c"
+  "gitHead": "4cd69e7eee359063bcfdd30de35e6e5ed7e72fb1"
 }
